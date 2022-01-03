@@ -1,0 +1,182 @@
+body{
+    background: #F9F1E7;
+    font-family: 'Mukta', sans-serif;
+}
+.navleft{
+    margin-left: 50px;
+    position: relative;
+    top: 20px;
+    left:30px
+    
+}
+.navleft li{
+    display: inline-block;
+    padding: 8px;
+    font-size: 20px;
+    padding-left: 60px;
+}
+.navleft .head{
+    font-weight: 700;
+    font-size: 25px;
+}
+.bars{
+    position: absolute;
+    left: 39%;
+    top: 20px;
+    
+}
+.bars li{
+    display: inline-block;
+    padding: 10px;
+
+}
+.searchbar{
+    padding: 10px;
+    border-radius: 25px;
+    width: 190%;
+}
+
+
+    
+ .navright{
+     display: inline-block;
+     position: relative;
+     left:90%;
+     bottom: 20px;
+ }   
+  
+
+.navright img{
+  padding: 7px;
+
+}
+hr{
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    
+    text-align: center;
+    position: relative;
+    left: 47%;
+    
+}
+.ab{
+    margin: 15px;
+    background-color: orange;
+}
+.ad{
+    margin: 15px;
+}
+.ac{
+    margin: 15px;
+}
+.ae{
+    margin: 15px;
+}
+.heroimgs{
+    display: flex;
+    justify-content: start;
+    
+}
+.left{
+    width: 27%;
+    padding-right: 65px;
+}
+.center{
+    width: 63%;
+ 
+    
+}
+.right{
+    margin-left: 65px;
+}
+.title{
+    background: rgba( 255, 255, 255, 0.10 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: absolute;
+    top: 120px;
+    padding: 50px;
+    left: 22%;
+}
+.maintitle{
+    font-weight: bold;
+font-size: 56px;
+line-height: 120%;
+/* or 67px */
+
+
+/* Color / Gray 1 */
+
+color: #3A3A3A;
+}
+.subhead{
+    font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+
+/* Color / Gray 3 */
+
+color: #898989;
+}
+.shop{
+    width: 100%;
+    height: 50px;
+    background: #E89F71;
+    color: white;
+}
+.itemdetail{
+    background: rgba( 255, 255, 255, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.0px );
+    -webkit-backdrop-filter: blur( 16.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 20px;
+position: absolute;
+top: 70%;
+left: 70%;
+width: 10%;
+height: 150px;
+text-align: left;
+}
+.itemhead{
+    font-style: normal;
+font-weight: 600;
+font-size: 28px;
+
+}
+.itemsub{
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+/* identical to box height, or 24px */
+
+
+/* Color / Gray 2 */
+
+color: #616161;
+}
+.price{
+    font-weight: 600;
+font-size: 20px;
+
+/* identical to box height, or 30px */
+
+
+/* Color / Gray 1 */
+
+color: #3A3A3A;
+}
+.itemd{
+    position: relative;
+    bottom:25px;
+}
